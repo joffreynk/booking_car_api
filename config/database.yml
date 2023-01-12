@@ -83,4 +83,5 @@ production:
   <<: *default
   database: booking_car_api_production
   username: booking_car_api
-  password: <%= ENV["BOOKING_CAR_API_DATABASE_PASSWORD"] %>
+  password: <%= ENV["Az0C5mNq8Ui7GKs6bYWiu2moYN9cqFi2"] %>
+  url: <%= ENV["postgres://final_capstone_api_user:Az0C5mNq8Ui7GKs6bYWiu2moYN9cqFi2@dpg-cevqrpirrk0eqcvnenu0-a/final_capstone_api"] %>
